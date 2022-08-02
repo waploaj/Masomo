@@ -18,8 +18,9 @@ fun main(args: Array<String>) {
     list.append(12)
     var middleNode = list.nodeAt(1)
     for (i in 1..3){
-        middleNode =  list.insertAt(-1*i, middleNode!!)
+        middleNode = list.insertAt(-1*i, middleNode!!)!!
     }
-    println
+    println(list)
+
 
 }
