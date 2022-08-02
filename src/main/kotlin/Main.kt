@@ -13,13 +13,13 @@ fun main(args: Array<String>) {
 
     var list = LinkedList<Int>()
     list.push(3)
-//    list.push(value = 4)
-//    list.push(value = 5)
+    list.push(value = 4)
+    list.push(value = 5)
     list.append(12)
     var middleNode = list.nodeAt(1)
     for (i in 1..3){
         middleNode =  list.insertAt(-1*i, middleNode!!)
     }
-
+    println
 
 }

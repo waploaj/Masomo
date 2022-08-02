@@ -14,14 +14,21 @@ data class Node<T>(var value:T, var next:Node<T>? = null){
     }
 }
 
-class LinkedList<T>{
+class LinkedList<T>:Iterable<T>{
     private var head:Node<T>? =  null
     private var tail:Node<T>? = null
-    private var size = 0
+    var size = 0
+        private set
 
     private fun isEmpty():Boolean{
         return size == 0
     }
+
+    override fun iterator(): Iterator<T> {
+        return Li
+    }
+
+
 
     override fun toString(): String {
         return if (isEmpty()){
