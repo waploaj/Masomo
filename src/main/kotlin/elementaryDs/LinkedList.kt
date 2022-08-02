@@ -25,7 +25,7 @@ class LinkedList<T>:Iterable<T>{
     }
 
     override fun iterator(): Iterator<T> {
-        return Li
+        return LinkedListIterator(this)
     }
 
 
