@@ -1,2 +1,2 @@
-package elementaryDs
+package elementaryDs.challenge
 
