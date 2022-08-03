@@ -21,6 +21,21 @@ fun main(args: Array<String>) {
         middleNode = list.insertAt(-1*i, middleNode!!)!!
     }
     println(list)
+    for (items in list){
+        println(items)
+    }
+
+    var lists = LinkedList<Int>()
+    lists.push(1)
+    lists.push(2)
+    lists.push(3)
+    println(lists)
+
+    for (item in lists){
+        println("Double: ${item *2}")
+    }
+
+
 
 
 }
